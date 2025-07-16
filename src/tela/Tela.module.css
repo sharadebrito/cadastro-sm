@@ -67,14 +67,19 @@ button {
   background-color: #1f40af;
   color: white;
   width: 400px;
-  height: 40px;
-  margin-top: 53px;
+  height: 30px;
+  margin-top: 40px;
   border: none;
   border-radius: 6px;
   font-size: 16px;
   cursor: pointer;
+  margin-bottom: 30px;
 }
 
 button:hover {
   background-color: #2563eb;
+}
+
+a {
+  color: #1f40af;
 }
