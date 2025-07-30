@@ -8,7 +8,6 @@ import { Modal } from "./Modal";
 import { verifySenha } from "../Funcoes/verifySenha";
 import { Forms } from "./Forms";
 
-
 export function Tela() {
   const [nome, setNome] = useState("");
   const [email, setEmail] = useState("");
@@ -48,7 +47,11 @@ export function Tela() {
     <div>
       <div className={styles.container}>
         <MsgInitial />
-        {!senhaValid && <p className={styles.flashMsg}>A senha deve conter pelo menos 6 caracteres e 1 caractere especial</p>}
+        {!senhaValid && (
+          <p className={styles.flashMsg}>
+            A senha deve conter pelo menos 6 caracteres e 1 caractere especial
+          </p>
+        )}
         <Forms
           handleNome={handleNome}
           handleEmail={handleEmail}

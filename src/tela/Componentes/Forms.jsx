@@ -1,12 +1,12 @@
-import styles from './Tela.module.css'
-import { Label } from './Label';
-import { Input } from './Input';
+import styles from "./Tela.module.css";
+import { Label } from "./Label";
+import { Input } from "./Input";
 
-export function Forms({handleNome, handleEmail, handleSenha, handleQuadra}) {
+export function Forms({ handleNome, handleEmail, handleSenha, handleQuadra }) {
   return (
     <div className={styles.forms}>
       <div className={styles.boxInput}>
-        <Label name="Nome:"/>
+        <Label name="Nome:" />
         <Input
           type="text"
           id="inputId"
@@ -15,7 +15,7 @@ export function Forms({handleNome, handleEmail, handleSenha, handleQuadra}) {
         />
       </div>
       <div className={styles.boxInput}>
-        <Label name="E-mail:"/>
+        <Label name="E-mail:" />
         <Input
           type="text"
           id="inputId"
@@ -24,7 +24,7 @@ export function Forms({handleNome, handleEmail, handleSenha, handleQuadra}) {
         />
       </div>
       <div className={styles.boxInput}>
-        <Label name="Senha:"/>
+        <Label name="Senha:" />
         <Input
           type="text"
           id="inputId"
@@ -33,7 +33,7 @@ export function Forms({handleNome, handleEmail, handleSenha, handleQuadra}) {
         />
       </div>
       <div className={styles.boxInput}>
-        <Label name="Quadra:"/>
+        <Label name="Quadra:" />
         <Input
           type="text"
           id="inputId"

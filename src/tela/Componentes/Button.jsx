@@ -1,4 +1,4 @@
-export function Button({criar}) {
+export function Button({ criar }) {
   return (
     <div>
       <button onClick={criar}>
