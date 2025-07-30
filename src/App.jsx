@@ -1,5 +1,5 @@
-import { Tela } from "./tela/Tela";
 import "./App.css";
+import { Tela } from "./tela/Componentes/Tela";
 
 
 function App() {
