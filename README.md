@@ -21,4 +21,4 @@ The project allows creating, editing, and storing user information securely and 
 🌐 HTML  
 🌐 External API: SportingManager  
 💾 Database: (MySQL)  
-🧪 Jest / Testing Library
+
