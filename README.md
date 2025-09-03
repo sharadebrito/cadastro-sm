@@ -14,7 +14,7 @@ Repositório criado para gerenciamento de cadastro de usuários, com integraçã
 Repository created for user registration management, integrating with the external **SportingManager** API and storing data in a database, developed as a study project in Systems Analysis and Development.  
 The project allows creating, editing, and storing user information securely and efficiently.
 
-⚙️ Technologies used  
+⚙️ Technologies used:
 ⚛️ React  
 ⚡ JavaScript  
 🎨 CSS  
